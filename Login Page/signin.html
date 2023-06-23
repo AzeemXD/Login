@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/favicon_io/site.webmanifest" />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <section>
+      <div class="signin">
+        <div class="content">
+          <h2>Set Up Your Account</h2>
+          <form action="">
+            <div class="inputBox">
+              <input type="text" required /> <i>First Name</i>
+            </div>
+            <div class="inputBox">
+              <input type="text" required /> <i>Last Name</i>
+            </div>
+            <div class="inputBox">
+              <input type="number" required /> <i>Phone Number</i>
+            </div>
+            <hr />
+            <div class="inputBox">
+              <input type="text" required /> <i>Username</i>
+            </div>
+
+            <div class="inputBox">
+              <input type="password" required />
+              <i>Password</i>
+            </div>
+            <div class="inputBox">
+              <input type="password" required />
+              <i>Re-Enter Password</i>
+            </div>
+
+            <div class="links">
+              <p>Already have an Account...</p>
+              <a href="login.html">Login</a>
+            </div>
+
+            <div class="inputBox">
+              <button id="popUp" onclick="myFunction()">Create Account</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script>
+      function myFunction() {
+        alert("Successfully Submitted");
+      }
+    </script>
+  </body>
+</html>
